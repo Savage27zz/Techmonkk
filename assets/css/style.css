@@ -182,11 +182,6 @@ a { color: inherit; text-decoration: none; }
 .avatar__chip--1 { top: 14px; left: -22px; }
 .avatar__chip--2 { bottom: 16px; right: -18px; }
 
-.orbit { position: absolute; inset: -6%; z-index: 0; pointer-events: none; animation: spin 26s linear infinite; }
-.orbit__badge { position: absolute; top: 50%; left: 50%; width: 48px; height: 48px; margin: -24px; border-radius: 50%; overflow: hidden; border: 2px solid #000; box-shadow: 0 0 0 2px var(--yellow); transform: rotate(calc(var(--i) * 120deg)) translateX(190px) rotate(calc(var(--i) * -120deg)); animation: counterspin 26s linear infinite; }
-.orbit__badge img { width: 100%; height: 100%; object-fit: cover; }
-@keyframes spin { to { transform: rotate(360deg); } }
-@keyframes counterspin { to { transform: rotate(calc(var(--i) * 120deg)) translateX(190px) rotate(calc(var(--i) * -120deg - 360deg)); } }
 
 .hero__scroll { position: absolute; bottom: 26px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 8px; font-family: var(--mono); font-size: 11px; letter-spacing: 3px; color: var(--ink-dim); z-index: 1; }
 .hero__scroll-line { width: 1px; height: 40px; background: linear-gradient(var(--yellow), transparent); animation: scrolldown 1.8s var(--ease) infinite; transform-origin: top; }
