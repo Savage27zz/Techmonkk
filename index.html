@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TECH MONK — Social Media & Community Manager</title>
+  <meta name="description" content="Tech Monk — Social Media Manager & Community Manager/Moderator. Content, community, and campaigns that grow Web3 projects organically." />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="TECH MONK — Social Media & Community Manager" />
+  <meta property="og:description" content="Content, community, and campaigns that grow Web3 projects organically." />
+  <meta property="og:image" content="assets/img/techmonk-pfp.jpg" />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="assets/img/techmonk-pfp.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" id="preloader">
+    <div class="boot">
+      <pre class="boot__logo" aria-hidden="true">
+ ████████╗███╗   ███╗
+ ╚══██╔══╝████╗ ████║
+    ██║   ██╔████╔██║
+    ██║   ██║╚██╔╝██║
+    ██║   ██║ ╚═╝ ██║
+    ╚═╝   ╚═╝     ╚═╝</pre>
+      <div class="boot__lines" id="bootLines"></div>
+      <div class="boot__bar"><span id="bootBar"></span></div>
+      <div class="boot__pct" id="bootPct">0%</div>
+    </div>
+  </div>
+
+  <!-- ============ CRT / GRAIN OVERLAYS ============ -->
+  <div class="crt" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <!-- ============ CUSTOM CURSOR ============ -->
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__brand" data-magnetic>
+      <span class="nav__badge">TM</span>
+      <span class="nav__name">TECH_MONK</span>
+    </a>
+    <nav class="nav__links">
+      <a href="#about" data-nav>About</a>
+      <a href="#services" data-nav>Services</a>
+      <a href="#arsenal" data-nav>Arsenal</a>
+      <a href="#work" data-nav>Work</a>
+      <a href="#contact" data-nav>Contact</a>
+    </nav>
+    <a href="#contact" class="nav__cta" data-magnetic>Hire me →</a>
+    <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <main id="top">
+    <section class="hero" id="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+
+      <div class="hero__inner">
+        <div class="hero__left">
+          <div class="hero__tag reveal"><span class="blink">▍</span> STATUS: ONLINE // OPEN FOR WORK</div>
+          <h1 class="hero__title">
+            <span class="glitch" data-text="TECH">TECH</span>
+            <span class="glitch glitch--accent" data-text="MONK">MONK</span>
+          </h1>
+          <p class="hero__role reveal">
+            <span class="typed" id="typed"></span><span class="caret">▍</span>
+          </p>
+          <p class="hero__lede reveal">
+            I turn raw projects into loud, loyal communities — engineering content,
+            campaigns, and moderation that grow Web3 brands <em>organically</em>.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#work" class="btn btn--primary" data-magnetic>View the work</a>
+            <a href="#contact" class="btn btn--ghost" data-magnetic>Start a project</a>
+          </div>
+          <div class="hero__socials reveal">
+            <a href="https://t.me/techmonkHQ" target="_blank" rel="noopener" data-magnetic>Telegram</a>
+            <span>/</span>
+            <a href="https://x.com/techmonk001" target="_blank" rel="noopener" data-magnetic>X</a>
+            <span>/</span>
+            <a href="#contact" data-magnetic>Discord</a>
+          </div>
+        </div>
+
+        <div class="hero__right">
+          <div class="avatar" id="avatar" data-tilt>
+            <div class="avatar__frame">
+              <img src="assets/img/techmonk-pfp.jpg" alt="Tech Monk — ronin monk avatar" />
+              <div class="avatar__scan"></div>
+            </div>
+            <div class="avatar__corner avatar__corner--tl"></div>
+            <div class="avatar__corner avatar__corner--tr"></div>
+            <div class="avatar__corner avatar__corner--bl"></div>
+            <div class="avatar__corner avatar__corner--br"></div>
+            <div class="avatar__chip avatar__chip--1">ロニン</div>
+            <div class="avatar__chip avatar__chip--2">v1.0</div>
+          </div>
+          <div class="orbit" aria-hidden="true">
+            <span class="orbit__badge" style="--i:0"><img src="assets/img/slidefunbot.jpg" alt=""></span>
+            <span class="orbit__badge" style="--i:1"><img src="assets/img/blockchainful.jpg" alt=""></span>
+            <span class="orbit__badge" style="--i:2"><img src="assets/img/oiioii.jpg" alt=""></span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll down">
+        <span>SCROLL</span>
+        <span class="hero__scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>CONTENT WRITING ✦ AI ENGINEERING ✦ DIGITAL MARKETING ✦ COMMUNITY BUILDING ✦ MODERATION ✦ CAMPAIGNS ✦ GROWTH ✦ THREADS ✦ MEMES ✦ AMAs ✦</span>
+        <span>CONTENT WRITING ✦ AI ENGINEERING ✦ DIGITAL MARKETING ✦ COMMUNITY BUILDING ✦ MODERATION ✦ CAMPAIGNS ✦ GROWTH ✦ THREADS ✦ MEMES ✦ AMAs ✦</span>
+      </div>
+    </div>
+
+    <!-- ============ ABOUT / STATS ============ -->
+    <section class="about" id="about">
+      <div class="section-head">
+        <span class="section-head__no">01</span>
+        <h2 class="section-head__title reveal-up">// WHO IS<br>TECH MONK</h2>
+      </div>
+      <div class="about__body">
+        <p class="about__lead reveal-up">
+          A social media manager & community lead with a builder's brain.
+          With expertise in <strong>content writing</strong>, <strong>AI engineering</strong>,
+          and <strong>digital marketing</strong>, I create high-quality content that helps
+          projects grow organically while building a strong, loyal community.
+        </p>
+        <p class="about__text reveal-up">
+          My goal is simple: increase brand awareness, drive engagement, educate users,
+          attract strategic partnerships, and convert casual community members into
+          long-term supporters — through consistent, value-driven content.
+        </p>
+        <div class="stats">
+          <div class="stat reveal-up">
+            <div class="stat__num" data-count="250" data-suffix="+">0</div>
+            <div class="stat__label">Content pieces shipped</div>
+          </div>
+          <div class="stat reveal-up">
+            <div class="stat__num" data-count="1500" data-suffix="+">0</div>
+            <div class="stat__label">Community members reached</div>
+          </div>
+          <div class="stat reveal-up">
+            <div class="stat__num" data-count="4" data-suffix="">0</div>
+            <div class="stat__label">Projects shipped for</div>
+          </div>
+          <div class="stat reveal-up">
+            <div class="stat__num" data-count="10" data-suffix="+">0</div>
+            <div class="stat__label">Bots configured &amp; managed</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="services">
+      <div class="section-head">
+        <span class="section-head__no">02</span>
+        <h2 class="section-head__title reveal-up">// WHAT I DO</h2>
+      </div>
+
+      <div class="svc">
+        <article class="svc__card reveal-up" data-tilt>
+          <header class="svc__top">
+            <span class="svc__icon">◈</span>
+            <h3>Social Media<br>Manager</h3>
+          </header>
+          <p class="svc__desc">Engaging, high-quality content that grows projects organically across every platform.</p>
+          <ul class="svc__list">
+            <li>X (Twitter) threads</li>
+            <li>Educational &amp; thought-leadership articles</li>
+            <li>Viral memes</li>
+            <li>Short-form videos &amp; reels</li>
+            <li>Infographics</li>
+            <li>Community updates &amp; announcements</li>
+            <li>Marketing &amp; promotional campaigns</li>
+            <li>Launch &amp; event copy</li>
+          </ul>
+          <div class="svc__foot">
+            <span>+ Account management</span>
+            <span>+ DM handling &amp; partnerships</span>
+            <span>+ KOL &amp; creator outreach</span>
+            <span>+ Trend &amp; sentiment monitoring</span>
+          </div>
+        </article>
+
+        <article class="svc__card reveal-up" data-tilt>
+          <header class="svc__top">
+            <span class="svc__icon">◆</span>
+            <h3>Community Manager<br>/ Moderator</h3>
+          </header>
+          <p class="svc__desc">A project's community is its most valuable asset. I keep members heard, informed, and engaged.</p>
+          <ul class="svc__list">
+            <li>Moderating Telegram &amp; Discord</li>
+            <li>Explaining updates simply &amp; clearly</li>
+            <li>Calm dispute &amp; conflict resolution</li>
+            <li>Prompt responses to questions</li>
+            <li>Escalating issues to the core team</li>
+            <li>Anti-spam, anti-scam protection</li>
+            <li>Contests, quizzes, giveaways, AMAs</li>
+            <li>Bounty coordination &amp; fair rewards</li>
+          </ul>
+          <div class="svc__foot">
+            <span>+ Event hosting</span>
+            <span>+ Bounty tracking</span>
+            <span>+ Positive-atmosphere building</span>
+            <span>+ 24/7 vigilance</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ BOT ARSENAL ============ -->
+    <section class="arsenal" id="arsenal">
+      <div class="section-head">
+        <span class="section-head__no">03</span>
+        <h2 class="section-head__title reveal-up">// BOT ARSENAL</h2>
+      </div>
+      <p class="arsenal__lede reveal-up">
+        I configure, manage &amp; maintain the essential Telegram &amp; Discord bots that automate
+        moderation, harden security, and level-up community management.
+      </p>
+      <div class="bots">
+        <div class="bot reveal-up" data-platform="TG"><h4>Rose Bot</h4><p>Advanced moderation, anti-spam, auto-warnings, filters &amp; welcomes.</p></div>
+        <div class="bot reveal-up" data-platform="TG"><h4>Combot</h4><p>Community analytics, moderation &amp; spam protection.</p></div>
+        <div class="bot reveal-up" data-platform="TG"><h4>Shieldy</h4><p>CAPTCHA verification to block bot attacks.</p></div>
+        <div class="bot reveal-up" data-platform="DC"><h4>MEE6</h4><p>Auto-mod, leveling, welcomes &amp; custom commands.</p></div>
+        <div class="bot reveal-up" data-platform="DC"><h4>Carl-bot</h4><p>Moderation, reaction roles, logging &amp; automation.</p></div>
+        <div class="bot reveal-up" data-platform="DC"><h4>Dyno</h4><p>Auto-mod, announcements &amp; role management.</p></div>
+        <div class="bot reveal-up" data-platform="DC"><h4>Ticket Tool</h4><p>Support ticket management for members.</p></div>
+        <div class="bot reveal-up" data-platform="WEB3"><h4>Collab.Land</h4><p>Wallet verification &amp; token-gated access.</p></div>
+        <div class="bot reveal-up" data-platform="DC"><h4>Safeguard</h4><p>Anti-raid protection &amp; member verification.</p></div>
+        <div class="bot reveal-up" data-platform="DC"><h4>Statbot</h4><p>Community analytics &amp; server insights.</p></div>
+      </div>
+    </section>
+
+    <!-- ============ WORK / PROJECTS ============ -->
+    <section class="work" id="work">
+      <div class="section-head">
+        <span class="section-head__no">04</span>
+        <h2 class="section-head__title reveal-up">// SELECTED WORK</h2>
+      </div>
+
+      <div class="projects">
+        <article class="project reveal-up" data-accent="#3f7fff">
+          <div class="project__media"><img src="assets/img/spinova.jpg" alt="Spinova logo" /></div>
+          <div class="project__body">
+            <div class="project__head">
+              <h3>Spinova</h3>
+              <span class="project__role">Social Media Manager</span>
+            </div>
+            <p class="project__desc">Managed presence across X and other platforms — content strategy, educational threads, memes, announcements &amp; promotional campaigns. Engaged the community and spotted collab opportunities.</p>
+            <ul class="project__wins">
+              <li>50+ high-quality posts, threads &amp; promos published</li>
+              <li>Strengthened online presence with consistent content</li>
+              <li>Maintained a cohesive brand voice with the team</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project reveal-up" data-accent="#8b5cff">
+          <div class="project__media"><img src="assets/img/vynex.jpg" alt="Vynex logo" /></div>
+          <div class="project__body">
+            <div class="project__head">
+              <h3>Vynex</h3>
+              <span class="project__role">Discord Moderator</span>
+            </div>
+            <p class="project__desc">Moderated the server and enforced guidelines, assisted members, resolved conflicts, and shielded the community from spam, scams &amp; bad actors while supporting engagement drives.</p>
+            <ul class="project__wins">
+              <li>Moderated a 1,000+ member community</li>
+              <li>Kept a safe, organized &amp; engaging environment</li>
+              <li>Resolved issues promptly with a positive UX</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project reveal-up" data-accent="#ff8a3d">
+          <div class="project__media project__media--text"><span>CHUNK<br>COIN</span></div>
+          <div class="project__body">
+            <div class="project__head">
+              <h3>Chunk Coin</h3>
+              <span class="project__role">Telegram Community Manager</span>
+            </div>
+            <p class="project__desc">Ran daily Telegram activities — answered questions, communicated updates, moderated discussions and kept engagement high while enforcing community guidelines.</p>
+            <ul class="project__wins">
+              <li>Managed &amp; engaged a 500-member community</li>
+              <li>Fostered discussion &amp; lifted participation</li>
+              <li>Maintained a spam-free, welcoming space</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project reveal-up" data-accent="#ff4fd8">
+          <div class="project__media"><img src="assets/img/oink.jpg" alt="Oink logo" /></div>
+          <div class="project__body">
+            <div class="project__head">
+              <h3>Oink</h3>
+              <span class="project__role">Social Media Manager</span>
+            </div>
+            <p class="project__desc">Planned &amp; executed the content strategy — announcements, memes, educational posts &amp; promo campaigns — collaborating with the team on marketing and community growth.</p>
+            <ul class="project__wins">
+              <li>100+ original pieces across platforms</li>
+              <li>Increased engagement with value-driven content</li>
+              <li>Strengthened brand identity &amp; visibility</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ ROLES / BADGES ============ -->
+    <section class="roles" id="roles">
+      <div class="section-head">
+        <span class="section-head__no">05</span>
+        <h2 class="section-head__title reveal-up">// ROLES &amp; PARTNERS</h2>
+      </div>
+      <div class="badges">
+        <a class="badge reveal-up" href="#" data-tilt>
+          <div class="badge__logo"><img src="assets/img/slidefunbot.jpg" alt="Slidefunbot"></div>
+          <div class="badge__meta"><span class="badge__role">Ambassador</span><span class="badge__name">Slidefunbot</span></div>
+        </a>
+        <a class="badge reveal-up" href="#" data-tilt>
+          <div class="badge__logo"><img src="assets/img/blockchainful.jpg" alt="BlockchainFUL"></div>
+          <div class="badge__meta"><span class="badge__role">VIP</span><span class="badge__name">BlockchainFUL</span></div>
+        </a>
+        <a class="badge reveal-up" href="#" data-tilt>
+          <div class="badge__logo"><img src="assets/img/oiioii.jpg" alt="Oiioii.ai"></div>
+          <div class="badge__meta"><span class="badge__role">Creator Partner</span><span class="badge__name">Oiioii.ai</span></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+        <p class="contact__pre reveal-up">// LET'S BUILD SOMETHING LOUD</p>
+        <h2 class="contact__title reveal-up">READY TO GROW<br><span class="glitch glitch--accent" data-text="YOUR PROJECT?">YOUR PROJECT?</span></h2>
+        <div class="contact__links">
+          <a class="clink reveal-up" href="https://t.me/techmonkHQ" target="_blank" rel="noopener" data-magnetic>
+            <span class="clink__plat">Telegram</span><span class="clink__handle">@techmonkHQ</span><span class="clink__arrow">↗</span>
+          </a>
+          <a class="clink reveal-up" href="https://x.com/techmonk001" target="_blank" rel="noopener" data-magnetic>
+            <span class="clink__plat">X (Twitter)</span><span class="clink__handle">@techmonk001</span><span class="clink__arrow">↗</span>
+          </a>
+          <a class="clink reveal-up" href="#" data-copy="techmonk001" data-magnetic>
+            <span class="clink__plat">Discord</span><span class="clink__handle">techmonk001</span><span class="clink__arrow">⧉</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <span class="footer__brand">TECH_MONK</span>
+    <span class="footer__mid">Social Media &amp; Community Manager</span>
+    <span class="footer__year">© <span id="year"></span> — built in the shadows 🥷</span>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
